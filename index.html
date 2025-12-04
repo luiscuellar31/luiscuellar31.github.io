@@ -1,1 +1,171 @@
-<h1>Hola desde mi GitHub Page</h1>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Cuellar GitHub Page</title>
+    <meta name="description" content="Portafolio de Luis Cuellar, Ingeniero en Computación.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="site-nav">
+        <div class="container nav-container">
+            <span class="logo">GitHub Page</span>
+            <div class="nav-links">
+                <a href="#proyectos">Proyectos</a>
+                <a href="#experiencia">Experiencia</a>
+                <a href="#habilidades">Habilidades</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero section">
+        <div class="container">
+            <p class="eyebrow">Ingenería en Computación</p>
+            <h1>Luis Enrique Sánchez Cuellar</h1>
+            <p class="lead">Estudiante de Ingeniería en Computación apasionado por el hardware y el desarrollo de proyectos open source.</p>
+
+            <div class="hero__actions">
+                <a class="btn btn--primary" href="./CV_Luis_Enrique_Sanchez_Cuellar.pdf" download>Descargar CV</a>
+                <a class="btn btn--ghost" href="https://github.com/luiscuellar31" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn btn--ghost" href="https://linkedin.com/in/luiscuellar31" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="about-card">
+                    <h2>Sobre mí</h2>
+                    <p>Más allá del código, me dedico a crear contenido para YouTube centrado en hardware y PC Gaming. En mi canal realizo pruebas de rendimiento (benchmarks) para que la gente vea con datos reales cómo se comportan distintos componentes en juegos y tareas de uso diario. También hago unboxings y reviews donde explico con detalle qué ofrece cada producto, cómo se siente en la práctica y si realmente vale la pena por su precio. Además cubro noticias, análisis y críticas sobre las tendencias del sector. La idea es que cualquier persona que quiera armar, actualizar o entender su computadora tenga información clara, honesta y útil para tomar buenas decisiones.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="section">
+            <div class="container">
+                <h2 class="section-title">Proyectos</h2>
+                <div class="cards-grid">
+                    <article class="card">
+                        <div class="card__top">
+                            <div class="card__tags">
+                                <span class="tag">C++20</span>
+                                <span class="tag">Qt 6</span>
+                                <span class="tag">OpenSSL</span>
+                            </div>
+                            <a href="https://github.com/luiscuellar31/openscp" class="link-arrow" target="_blank">Ver Repo ↗</a>
+                        </div>
+                        <h3>OpenSCP</h3>
+                        <p>Cliente SFTP multiplataforma de doble panel inspirado en WinSCP. Enfocado en seguridad (TOFU), auditoría estricta y gestión eficiente de hilos para transferencias.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__top">
+                            <div class="card__tags">
+                                <span class="tag">Full-Stack</span>
+                                <span class="tag">Python/Flask</span>
+                            </div>
+                        </div>
+                        <h3>Sitio PSU Gang & Chatbot</h3>
+                        <p>Plataforma web con chatbot integrado para soporte técnico automatizado. Incluye módulos CRUD para gestión de inventario y tickets de clientes.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__top">
+                            <div class="card__tags">
+                                <span class="tag">Media</span>
+                                <span class="tag">+100K Vistas</span>
+                            </div>
+                        </div>
+                        <h3>Canal: LUIS Z31</h3>
+                        <p>Divulgación técnica sobre hardware y software. Benchmarks, reseñas y colaboraciones con marcas, gestionando desde el guion hasta la postproducción.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="section section--grey">
+            <div class="container">
+                <h2 class="section-title">Experiencia</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="date">2024 - 2025</span>
+                        <div class="content">
+                            <h3>Productor Multimedia</h3>
+                            <span class="place">ITAM · Depto. Académico de Lenguas</span>
+                            <p>Responsable del montaje del set para la grabación, así como para la edición y monitorización del audio y video, asegurando la alta calidad del contenido en redes sociales.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">2023 - 2025</span>
+                        <div class="content">
+                            <h3>Gestión de Redes Sociales</h3>
+                            <span class="place">ITAM · Representación Ingeniería</span>
+                            <p>Gestioné las redes sociales de la representación, creando y publicando contenido y stories específicos para eventos y avisos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section">
+            <div class="container">
+                <h2 class="section-title">Habilidades</h2>
+                <div class="skills-panel">
+                    <div class="skills-wrapper">
+                        <div class="skill-category">
+                            <h3>Core & Backend</h3>
+                            <div class="skill-tags">
+                                <span>C++ / Qt</span>
+                                <span>Java</span>
+                                <span>Python</span>
+                                <span>SQL</span>
+                                <span>C#</span>
+                                <span>PHP</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Web & Herramientas</h3>
+                            <div class="skill-tags">
+                                <span>React / Next.js</span>
+                                <span>Git / GitHub</span>
+                                <span>Linux / Bash</span>
+                                <span>HTML / CSS</span>
+                                <span>JavaScript / TypeScript</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Multimedia</h3>
+                            <div class="skill-tags">
+                                <span>DaVinci Resolve</span>
+                                <span>Adobe Photoshop</span>
+                                <span>OBS Studio</span>
+                                <span>Audacity</span>
+                                <span>HandBrake</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>© <span id="year"></span> Luis Enrique Sánchez Cuellar</p>
+            <a href="mailto:luiscuellar31@proton.me" class="email-link">luiscuellar31@proton.me</a>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
