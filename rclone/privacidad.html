@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de privacidad · rclone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600&family=Geist+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="frame nav__inner">
+            <a class="nav__brand" href="../index.html">luiscuellar31</a>
+            <nav class="nav__links" aria-label="Páginas de rclone">
+                <a href="index.html">rclone</a>
+                <a href="privacidad.html">Privacidad</a>
+            </nav>
+            <a class="btn btn--solid nav__cta" href="../index.html">Volver al sitio</a>
+        </div>
+    </header>
+
+    <main class="frame">
+        <section class="hero">
+            <p class="label">rclone · Actualizada el 9 de noviembre de 2026</p>
+            <h1>Política de privacidad</h1>
+            <p class="lead">Esta política cubre la app «rclone» que uso solo yo para subir a mi propio Google Drive los videos que exporto en mi computadora.</p>
+            <dl class="specs">
+                <div>
+                    <dt class="label">Permiso</dt>
+                    <dd><code>drive.file</code></dd>
+                </div>
+                <div>
+                    <dt class="label">Uso</dt>
+                    <dd>Solo personal</dd>
+                </div>
+                <div>
+                    <dt class="label">Se comparte con</dt>
+                    <dd>Nadie</dd>
+                </div>
+                <div>
+                    <dt class="label">Servidor propio</dt>
+                    <dd>Ninguno</dd>
+                </div>
+            </dl>
+        </section>
+
+        <section class="section">
+            <div class="section__head label"><span>01 / Detalle</span><span>Google Drive</span></div>
+            <ol class="rows">
+                <li class="row">
+                    <p class="label">01</p>
+                    <h3>Qué datos usa</h3>
+                    <p>Un solo permiso de Google Drive, <code>drive.file</code>: ver y cambiar únicamente los archivos y carpetas que la propia app sube. No ve el resto del Drive, ni el correo, ni los contactos.</p>
+                </li>
+                <li class="row">
+                    <p class="label">02</p>
+                    <h3>Dónde se guardan</h3>
+                    <p>La autorización se queda en mis propios equipos y entornos de trabajo. Los archivos van directo a mi Drive, sin pasar por ningún servidor de esta app.</p>
+                </li>
+                <li class="row">
+                    <p class="label">03</p>
+                    <h3>Con quién se comparten</h3>
+                    <p>Con nadie. No los vendo, no los comparto y no los uso para publicidad ni para entrenar modelos de IA. El uso de la información que la app recibe de las APIs de Google se apega a la <a class="link" href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Política de Datos del Usuario de los Servicios de API de Google</a>, incluidos sus requisitos de uso limitado.</p>
+                </li>
+                <li class="row">
+                    <p class="label">04</p>
+                    <h3>Cómo quitar el acceso</h3>
+                    <p>En cualquier momento, desde <a class="link" href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>.</p>
+                </li>
+                <li class="row">
+                    <p class="label">05</p>
+                    <h3>Contacto</h3>
+                    <p>En la <a class="link" href="../index.html">página principal</a> de este sitio.</p>
+                </li>
+            </ol>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="frame footer__inner">
+            <div>
+                <p class="footer__name">Luis Enrique Sánchez Cuellar</p>
+                <a class="label" href="mailto:luiscuellar31@proton.me">luiscuellar31@proton.me</a>
+            </div>
+            <nav class="footer__links" aria-label="Redes">
+                <p class="label">Redes</p>
+                <a href="https://github.com/luiscuellar31" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://linkedin.com/in/luiscuellar31" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://youtube.com/luisz31" target="_blank" rel="noopener">YouTube</a>
+            </nav>
+        </div>
+        <div class="frame footer__bar label">
+            <span>© <span id="year"></span></span>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

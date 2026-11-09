@@ -6,6 +6,7 @@ Sitio estático minimalista para presentar mi CV/portafolio con enfoque en progr
 - Enlaces a mi CV, GitHub y LinkedIn.
 - **Sobre mí** y secciones de proyectos, experiencia y stack tecnológico.
 - Estilos modernos escritos a mano en `styles.css`.
+- `rclone/`: la página de inicio y la política de privacidad que Google pide para mi app personal de rclone.
 
 ## Uso local
 ```bash

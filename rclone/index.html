@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rclone (uso personal)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600&family=Geist+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="frame nav__inner">
+            <a class="nav__brand" href="../index.html">luiscuellar31</a>
+            <nav class="nav__links" aria-label="Páginas de rclone">
+                <a href="index.html">rclone</a>
+                <a href="privacidad.html">Privacidad</a>
+            </nav>
+            <a class="btn btn--solid nav__cta" href="../index.html">Volver al sitio</a>
+        </div>
+    </header>
+
+    <main class="frame">
+        <section class="hero">
+            <p class="label">App personal · Google Drive</p>
+            <h1>rclone (uso personal)</h1>
+            <p class="lead">Con esta app subo a mi propio Google Drive los videos que exporto en mi computadora. No es un servicio para otras personas.</p>
+            <p class="lead">Funciona con <a class="link" href="https://rclone.org" target="_blank" rel="noopener">rclone</a>, un programa de código abierto, y solo tiene acceso a los archivos que ella misma sube.</p>
+            <div class="actions">
+                <a class="btn btn--solid" href="privacidad.html">Política de privacidad</a>
+                <a class="btn" href="../index.html">Página principal</a>
+            </div>
+            <dl class="specs">
+                <div>
+                    <dt class="label">Permiso</dt>
+                    <dd><code>drive.file</code></dd>
+                </div>
+                <div>
+                    <dt class="label">Acceso</dt>
+                    <dd>Solo lo que la app sube</dd>
+                </div>
+                <div>
+                    <dt class="label">Uso</dt>
+                    <dd>Personal</dd>
+                </div>
+                <div>
+                    <dt class="label">Código</dt>
+                    <dd>Abierto, con rclone</dd>
+                </div>
+            </dl>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="frame footer__inner">
+            <div>
+                <p class="footer__name">Luis Enrique Sánchez Cuellar</p>
+                <a class="label" href="mailto:luiscuellar31@proton.me">luiscuellar31@proton.me</a>
+            </div>
+            <nav class="footer__links" aria-label="Redes">
+                <p class="label">Redes</p>
+                <a href="https://github.com/luiscuellar31" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://linkedin.com/in/luiscuellar31" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://youtube.com/luisz31" target="_blank" rel="noopener">YouTube</a>
+            </nav>
+        </div>
+        <div class="frame footer__bar label">
+            <span>© <span id="year"></span></span>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
